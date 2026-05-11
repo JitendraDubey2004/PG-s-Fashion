@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #282c3f;
+  --navbar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --border-color: #eaeaec;
+  --secondary-text: #696e79;
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --navbar-bg: #1e1e1e;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --secondary-text: #b0b0b0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'Whitney';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Whitney'), url('https://fonts.cdnfonts.com/s/38487/whitneymedium.woff') format('woff');
+}
+
+
+#__react-alert__ > div > div > div{
+    background-color: #373939!important;
+    font-family: 'Whitney'!important;
+    font-size: 10px!important;
+    width: max-content!important;
+    
+}
+
