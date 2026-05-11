@@ -1,4 +1,4 @@
-# PG's Fashion - Advanced Myntra Clone 🛍️
+# PG's Fashion 🛍️
 
 An advanced, full-stack E-commerce application inspired by Myntra, featuring AI-driven search, immersive shopping experiences, and a robust administrative system.
 
@@ -114,4 +114,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the ISC License.
 
 ---
-*Created with ❤️ by Vikas Verma & PG's Fashion Team*
+*Created with ❤️ PG's Fashion Team*
