@@ -58,8 +58,8 @@ An advanced, full-stack E-commerce application inspired by Myntra, featuring AI-
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/myntra-clone.git
-cd myntra-clone
+git clone https://github.com/your-username/pgs-fashion.git
+cd pgs-fashion
 ```
 
 ### 2. Backend Configuration
@@ -77,21 +77,22 @@ SMPT_PASSWORD=your_app_password
 
 ### 3. Install Dependencies
 ```bash
-# Install backend dependencies
-cd backend
+# Install backend dependencies (from the project root directory)
 npm install
 
 # Install frontend dependencies
-cd ../frontend
+cd frontend
 npm install
 ```
 
 ### 4. Run the Application
 ```bash
-# Run backend (from backend folder)
-npm start
+# Run backend (from the project root directory)
+npm run dev
+# or npm start
 
-# Run frontend (from frontend folder)
+# Run frontend (from the frontend directory in a new terminal)
+cd frontend
 npm start
 ```
 
@@ -110,7 +111,7 @@ npm start
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the ISC License.
 
 ---
-*Created with ❤️ by PG's Fashion Team*
+*Created with ❤️ by Vikas Verma & PG's Fashion Team*
